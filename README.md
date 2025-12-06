@@ -76,21 +76,7 @@ Figures 1–3 in the paper: symmetric noise
 
 Figures 4–6 in the paper: biased noise
 
-⏱️ Runtime and Hardware
-
-Total runtime: ~2–4 minutes on a standard laptop (Intel i5, 8GB RAM)
-
-No GPU required
-
-GP model training is efficient due to small item set (K=10)
-
-🔁 Reproducibility
-
-Random seeds are fixed using numpy.random.default_rng(seed)
-
-All experiments are deterministic across runs
-
-Environment pinned via requirements.txt
+Dependencies in requirements.txt
 
 🧠 AI Tools Disclosure
 
