@@ -99,8 +99,3 @@ I used ChatGPT and Perplexity.ai extensively to edit the manuscript, debug scrip
 📜 License and Attribution
 
 This codebase is provided for academic use under the MIT License. Sushi dataset © Kamishima Lab.
-
-
----
-
-Let me know if you want this saved as a downloadable `.md` file too.
