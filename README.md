@@ -2,26 +2,6 @@
 
 This repository contains the code and results for our CS329H final project. We compare the robustness of two algorithms — Preferential Bayesian Optimization (PBO) and Exp3 — in identifying the optimal choice from noisy pairwise preference feedback. Experiments include both symmetric and biased noise settings.
 
-## 📂 Project Structure
-
-├── README.md <- You're here
-├── requirements.txt <- Python dependencies
-├── finalproject.ipynb <- Complete project pipeline (main code in notebook)
-├── src/ <- (Optional) Modular Python code
-│ ├── oracle.py <- Defines the noise models
-│ ├── agents.py <- GP-PBO and Exp3 implementations
-│ ├── simulate.py <- run_simulation and noise sweep logic
-│ ├── plot.py <- Generates plots (accuracy, regret vs noise)
-├── tex/ <- Paper and plots used in the report
-│ ├── paper.tex
-│ ├── fig_top1_sym.pdf
-│ ├── fig_top3_sym.pdf
-│ ├── fig_regret_sym.pdf
-│ ├── fig_top1_biased.pdf
-│ ├── fig_top3_biased.pdf
-│ ├── fig_regret_biased.pdf
-
-
 ## 🛠️ Setup Instructions
 
 1. **Clone the repository:**
